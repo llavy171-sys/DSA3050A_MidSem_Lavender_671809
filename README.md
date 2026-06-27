@@ -1,8 +1,10 @@
 ## DSA3050A Midsemester Exam
 ### Name: Lavender Achieng' Onyango-671809
 
-## Data Source
-Dataset: Bike Sales in Europe
+## Dataset Source
+
+**Bike Sales in Europe** by Sadiq Shah
+
 Source: **Bike Sales in Europe** by Sadiq Shah
 
 https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe
