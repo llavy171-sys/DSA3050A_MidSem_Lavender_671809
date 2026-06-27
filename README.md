@@ -8,24 +8,28 @@ Source: **Bike Sales in Europe** by Sadiq Shah
 https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe
 
 ## Dataset Summary
-*Number of Rows: 113,037
-*Number of Columns: 18
--Time Period: 2011–2016
+
+- **Number of Rows:** 113,037
+- **Number of Columns:** 18
+- **Time Period:** 2011–2016
 
 ## Business Problem
 
 The company needs to understand the factors driving bike sales performance across different countries, product categories, and customer segments between 2011 and 2016. Specifically, the analysis aims to identify which products generate the highest revenue and profit, which customer age groups contribute most to sales, how sales performance changes over time, and which markets are the most profitable. These insights support data-driven decisions on marketing, inventory management, product strategy, and resource allocation to improve overall business objectives.
 
 ## Power Query Transformations Performed
--Basic Data Cleaning
--Renamed unclear column names.
--Changed column data types.
--Removed duplicate records.
--Removed blank rows.
--Trimmed and cleaned text columns.
--Replaced inconsistent text values.
--Removed redundant columns (Day, Month, and Year).
 
+### Basic Data Cleaning
+
+* Renamed unclear column names.
+* Changed column data types.
+* Removed duplicate records.
+* Removed blank rows.
+* Trimmed and cleaned text columns.
+* Replaced inconsistent text values.
+* Removed redundant columns (**Day**, **Month**, and **Year**).
+
+  
 ## Intermediate Power Query Transformations
 
 * Merged **Country** and **State** into a **Location** column.
@@ -37,12 +41,13 @@ The company needs to understand the factors driving bike sales performance acros
 * Sorted the dataset by **Revenue** in descending order.
 * Added an **Index** column to uniquely identify each record.
 
-## Advanced Power Query Tasks
--Grouped data by Country with multiple aggregations (Total Revenue, Total Profit, Total Quantity Sold).
--Created a Reference Query for summarized analysis.
--Extracted text before and delimiter in Product Name to remove the size from the product.
--Used nested conditional logic to create business categories.
--Used Column Profiling to assess data quality.
+### Advanced Power Query Tasks
+
+* Grouped data by **Country** using multiple aggregations (Total Revenue, Total Profit, and Total Order Quantity).
+* Created a **Reference Query** for summarized analysis.
+* Extracted text before and after a delimiter.
+* Used nested conditional logic to classify business categories.
+* Applied **Column Profiling** to identify and assess data quality issues.
 
 ## Visuals Created
 
