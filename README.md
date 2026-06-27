@@ -8,40 +8,40 @@ Source: **Bike Sales in Europe** by Sadiq Shah
 https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe
 
 ## Dataset Summary
-Number of Rows: 113,037
-Number of Columns: 18
-Time Period: 2011–2016
+-Number of Rows: 113,037
+-Number of Columns: 18
+-Time Period: 2011–2016
 
 ## Business Problem
 
 The company needs to understand the factors driving bike sales performance across different countries, product categories, and customer segments between 2011 and 2016. Specifically, the analysis aims to identify which products generate the highest revenue and profit, which customer age groups contribute most to sales, how sales performance changes over time, and which markets are the most profitable. These insights support data-driven decisions on marketing, inventory management, product strategy, and resource allocation to improve overall business objectives.
 
 ## Power Query Transformations Performed
-Basic Data Cleaning
-Renamed unclear column names.
-Changed column data types.
-Removed duplicate records.
-Removed blank rows.
-Trimmed and cleaned text columns.
-Replaced inconsistent text values.
-Removed redundant columns (Day, Month, and Year).
+-Basic Data Cleaning
+-Renamed unclear column names.
+-Changed column data types.
+-Removed duplicate records.
+-Removed blank rows.
+-Trimmed and cleaned text columns.
+-Replaced inconsistent text values.
+-Removed redundant columns (Day, Month, and Year).
 
 ## Intermediate Transformations
-Merged Country and State into a Location column.
-Split the Location column back into Country and State.
-Created a custom column (Revenue per Unit).
-Created a conditional column (Sales Category,Business Category).
-Extracted Year, Month, Quarter, and Day from the Date column.
-Filtered rows using multiple conditions.
-Sorted data by Revenue (Descending).
-Added an Index column.
+-Merged Country and State into a Location column.
+-Split the Location column back into Country and State.
+-Created a custom column (Revenue per Unit).
+-Created a conditional column (Sales Category,Business Category).
+-Extracted Year, Month, Quarter, and Day from the Date column.
+-Filtered rows using multiple conditions.
+-Sorted data by Revenue (Descending).
+-Added an Index column.
 
 ## Advanced Power Query Tasks
-Grouped data by Country with multiple aggregations (Total Revenue, Total Profit, Total Quantity Sold).
-Created a Reference Query for summarized analysis.
-Extracted text before and delimiter in Product Name to remove the size from the product.
-Used nested conditional logic to create business categories.
-Used Column Profiling to assess data quality.
+-Grouped data by Country with multiple aggregations (Total Revenue, Total Profit, Total Quantity Sold).
+-Created a Reference Query for summarized analysis.
+-Extracted text before and delimiter in Product Name to remove the size from the product.
+-Used nested conditional logic to create business categories.
+-Used Column Profiling to assess data quality.
 
 ## Visuals Created
 
