@@ -27,14 +27,14 @@ The company needs to understand the factors driving bike sales performance acros
 -Removed redundant columns (Day, Month, and Year).
 
 ## Intermediate Transformations
--Merged Country and State into a Location column.
--Split the Location column back into Country and State.
--Created a custom column (Revenue per Unit).
--Created a conditional column (Sales Category,Business Category).
--Extracted Year, Month, Quarter, and Day from the Date column.
--Filtered rows using multiple conditions.
--Sorted data by Revenue (Descending).
--Added an Index column.
+Merged Country and State into a Location column.
+Split the Location column back into separate Country and State columns.
+Created a custom column (Revenue per Unit).
+Created conditional columns (Sales Category and Business Category) using business rules.
+Extracted Year, Month, Quarter, and Day from the Date column.
+Filtered rows using multiple conditions.
+Sorted the dataset by Revenue in descending order.
+Added an Index column to uniquely identify each record.
 
 ## Advanced Power Query Tasks
 -Grouped data by Country with multiple aggregations (Total Revenue, Total Profit, Total Quantity Sold).
