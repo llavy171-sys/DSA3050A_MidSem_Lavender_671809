@@ -3,8 +3,6 @@
 
 ## Dataset Source
 
-**Bike Sales in Europe** by Sadiq Shah
-
 Source: **Bike Sales in Europe** by Sadiq Shah
 
 https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe
