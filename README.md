@@ -29,7 +29,6 @@ The company needs to understand the factors driving bike sales performance acros
 * Replaced inconsistent text values.
 * Removed redundant columns (**Day**, **Month**, and **Year**).
 
-  
 ## Intermediate Power Query Transformations
 
 * Merged **Country** and **State** into a **Location** column.
@@ -41,7 +40,7 @@ The company needs to understand the factors driving bike sales performance acros
 * Sorted the dataset by **Revenue** in descending order.
 * Added an **Index** column to uniquely identify each record.
 
-### Advanced Power Query Tasks
+## Advanced Power Query Tasks
 
 * Grouped data by **Country** using multiple aggregations (Total Revenue, Total Profit, and Total Order Quantity).
 * Created a **Reference Query** for summarized analysis.
